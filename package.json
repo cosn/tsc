@@ -4,8 +4,5 @@
     "type": "git",
     "url": "https://github.com/cosn/tsc.git"
   },
-  "license": "ISC",
-  "devDependencies": {
-    "@changesets/cli": "^2.27.1"
-  }
+  "license": "ISC"
 }
