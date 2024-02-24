@@ -6,7 +6,7 @@
     "url": "git+https://github.com/cosn/tsc.git"
   },
   "scripts": {
-    "publish": "changeset publish"
+    "release": "changeset publish"
   },
   "license": "ISC",
   "devDependencies": {
