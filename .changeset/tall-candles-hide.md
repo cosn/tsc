@@ -1,5 +1,5 @@
 ---
-"@cosn/cos-tsc": minor
+"@cosn/tsc": minor
 ---
 
 ready for launch
