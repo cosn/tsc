@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.0.2
+
+### Patch Changes
+
+- a2096f6: Update registry
+
 ## 1.0.1
 
 ### Patch Changes
