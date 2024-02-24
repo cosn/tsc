@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.0.3
+
+### Patch Changes
+
+- bb2bec9: Switch to release
+
 ## 1.0.2
 
 ### Patch Changes
