@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.0.4
+
+### Patch Changes
+
+- f526caa: Fix lib typo
+
 ## 1.0.3
 
 ### Patch Changes
