@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.0.5
+
+### Patch Changes
+
+- 941f02a: Rename file
+
 ## 1.0.4
 
 ### Patch Changes
