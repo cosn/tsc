@@ -4,7 +4,6 @@
     "lib": ["esnext"],
 
     "module": "nodenext",
-    "moduleResolution": "bundler",
     "emitDeclarationOnly": true,
 
     "esModuleInterop": true,
