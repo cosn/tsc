@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.1.0
+
+### Minor Changes
+
+- 98a8e12: Remove moduleResolution as per https://twitter.com/mattpocockuk/status/1775138087443595689
+
 ## 1.0.5
 
 ### Patch Changes
