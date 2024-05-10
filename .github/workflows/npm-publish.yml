@@ -15,7 +15,7 @@ jobs:
         with:
           version: 8
           run_install: |
-            - args: [--frozen-lockfile]
+            - args: [--no-frozen-lockfile]
       - uses: actions/setup-node@v4
         with:
           node-version: 20
