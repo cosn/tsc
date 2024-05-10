@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.2.0
+
+### Minor Changes
+
+- 4c1c362: Remove noPropertyAccessFromIndexSignature
+
 ## 1.1.0
 
 ### Minor Changes
