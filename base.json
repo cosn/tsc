@@ -5,7 +5,7 @@
 
     "module": "preserve",
     "moduleResolution": "bundler",
-    "emitDeclarationOnly": true,
+    "noEmit": true,
 
     "esModuleInterop": true,
     "allowImportingTsExtensions": true,
@@ -22,6 +22,7 @@
     "forceConsistentCasingInFileNames": true,
     "verbatimModuleSyntax": true,
     "declaration": true,
+    "incremental": true,
 
     "outDir": "dist",
 
