@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.4.0
+
+### Minor Changes
+
+- 752fdc8: Add base-web
+
 ## 1.3.0
 
 ### Minor Changes
