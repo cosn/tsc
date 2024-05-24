@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.4.1
+
+### Patch Changes
+
+- e434c13: Tweaks
+
 ## 1.4.0
 
 ### Minor Changes
