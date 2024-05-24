@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.3.0
+
+### Minor Changes
+
+- 7d503eb: Change license, update module, add {allowJs, resolveModule}, remove {sourceMap, include}
+
 ## 1.2.0
 
 ### Minor Changes
