@@ -8,7 +8,7 @@
   "scripts": {
     "release": "changeset publish"
   },
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.27.1"
   }
