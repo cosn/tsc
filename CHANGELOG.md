@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.5.3
+
+### Patch Changes
+
+- b077b1f: Update extension
+
 ## 1.5.2
 
 ### Patch Changes
