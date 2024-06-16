@@ -1,5 +1,5 @@
 ---
-"@cosn/tsc": patch
+'@cosn/tsc': patch
 ---
 
 fix exports
