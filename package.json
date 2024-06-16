@@ -2,10 +2,15 @@
   "name": "@cosn/tsc",
   "version": "1.6.0",
   "type": "module",
+  "main": "index.js",
   "prettier": "./prettier.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cosn/tsc.git"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./prettier": "./prettier.js"
   },
   "scripts": {
     "release": "changeset publish",
