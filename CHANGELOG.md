@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.6.1
+
+### Patch Changes
+
+- 7010e2c: add exports
+
 ## 1.6.0
 
 ### Minor Changes
