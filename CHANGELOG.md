@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.5.1
+
+### Patch Changes
+
+- 5f484a5: rename prettier config
+
 ## 1.5.0
 
 ### Minor Changes
