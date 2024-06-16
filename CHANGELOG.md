@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.5.0
+
+### Minor Changes
+
+- dc91ea0: Add prettier config and update base tsconfig
+
 ## 1.4.1
 
 ### Patch Changes
