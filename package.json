@@ -10,7 +10,9 @@
   },
   "exports": {
     ".": "./index.js",
-    "./prettier": "./prettier.js"
+    "./prettier": "./prettier.js",
+    "./tsconfig-srv": "./base.json",
+    "./tsconfig-web": "./base-web.json"
   },
   "scripts": {
     "release": "changeset publish",
