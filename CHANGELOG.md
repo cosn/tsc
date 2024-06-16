@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.6.0
+
+### Minor Changes
+
+- 163f500: Fix prettier
+
 ## 1.5.3
 
 ### Patch Changes
