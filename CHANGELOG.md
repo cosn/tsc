@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.5.2
+
+### Patch Changes
+
+- c83d536: add type
+
 ## 1.5.1
 
 ### Patch Changes
