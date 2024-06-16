@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.6.3
+
+### Patch Changes
+
+- 230f3d3: fix exports
+
 ## 1.6.2
 
 ### Patch Changes
