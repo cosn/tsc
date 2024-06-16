@@ -14,11 +14,13 @@
   },
   "scripts": {
     "release": "changeset publish",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "prepare": "husky"
   },
   "license": "MIT",
   "devDependencies": {
-    "@changesets/cli": "^2.27.1"
+    "@changesets/cli": "^2.27.1",
+    "husky": "^9.0.11"
   },
   "dependencies": {
     "prettier": "^3.3.2",
