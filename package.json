@@ -1,6 +1,8 @@
 {
   "name": "@cosn/tsc",
   "version": "1.5.3",
+  "type": "module",
+  "prettier": "./prettier.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cosn/tsc.git"
@@ -11,5 +13,9 @@
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.27.1"
+  },
+  "dependencies": {
+    "prettier": "^3.3.2",
+    "prettier-plugin-tailwindcss": "^0.6.4"
   }
 }
