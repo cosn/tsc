@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.6.2
+
+### Patch Changes
+
+- 4bcf7a3: add schema
+
 ## 1.6.1
 
 ### Patch Changes
