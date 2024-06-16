@@ -8,7 +8,8 @@
     "url": "git+https://github.com/cosn/tsc.git"
   },
   "scripts": {
-    "release": "changeset publish"
+    "release": "changeset publish",
+    "format": "prettier --write ."
   },
   "license": "MIT",
   "devDependencies": {
