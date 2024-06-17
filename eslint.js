@@ -8,7 +8,7 @@ const vitestFiles = ['**/__tests__/**/*', '**/*.test.*']
 const testFiles = ['**/tests/**', '**/#tests/**', ...vitestFiles]
 const playwrightFiles = ['**/e2e/**']
 
-export default [
+export const config = [
   {
     ignores: [
       '**/.next/**',
@@ -150,3 +150,5 @@ export default [
     },
   },
 ]
+
+export default config
