@@ -1,5 +1,5 @@
 ---
-"@cosn/tsc": minor
+'@cosn/tsc': minor
 ---
 
 add eslint.config.js
