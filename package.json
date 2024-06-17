@@ -10,6 +10,7 @@
   },
   "exports": {
     ".": "./index.js",
+    "./eslintrc": "./eslintrc.json",
     "./prettier": "./prettier.js",
     "./tsconfig-srv": "./base.json",
     "./tsconfig-web": "./base-web.json"
@@ -27,6 +28,7 @@
     "husky": "^9.0.11"
   },
   "dependencies": {
+    "eslint-plugin-prettier": "^5.1.3",
     "prettier": "^3.3.2",
     "prettier-plugin-tailwindcss": "^0.6.4"
   }
