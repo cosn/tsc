@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.8.1
+
+### Patch Changes
+
+- f17a5ed: update export default config
+
 ## 1.8.0
 
 ### Minor Changes
