@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.7.0
+
+### Minor Changes
+
+- 96bb6d0: add eslint
+
 ## 1.6.3
 
 ### Patch Changes
