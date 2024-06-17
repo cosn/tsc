@@ -1,5 +1,12 @@
 # @cosn/tsc
 
+## 1.8.0
+
+### Minor Changes
+
+- 370c8c5: add eslint.config.js
+- bb42583: add eslint
+
 ## 1.7.0
 
 ### Minor Changes
