@@ -5,8 +5,9 @@ import prettier from 'eslint-config-prettier'
 import globals from 'globals'
 import ts from 'typescript-eslint'
 
-const ERROR = 'error'
+const OFF = 'off'
 const WARN = 'warn'
+const ERROR = 'error'
 
 const vitestFiles = ['**/__tests__/**/*', '**/*.test.*']
 const testFiles = ['**/tests/**', '**/#tests/**', ...vitestFiles]
@@ -117,6 +118,12 @@ export const config = [
           fixStyle: 'inline-type-imports',
         },
       ],
+    },
+  },
+  {
+    files: ['**/*.jsx', '**/*.tsx'],
+    rules: {
+      'no-undef': [OFF], // get rid of the 'React' is not defined error
     },
   },
   {
