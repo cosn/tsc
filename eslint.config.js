@@ -37,7 +37,17 @@ export const config = [
     rules: {
       ...js.configs.recommended.rules,
       'no-var': ERROR,
+      'no-undef': OFF, // get rid of the 'React' is not defined error
       'no-unexpected-multiline': ERROR,
+      'no-unused-vars': [
+        WARN,
+        {
+          args: 'after-used',
+          argsIgnorePattern: '^_',
+          ignoreRestSiblings: true,
+          varsIgnorePattern: '^ignored',
+        },
+      ],
       'no-warning-comments': [
         ERROR,
         { terms: ['FIXME'], location: 'anywhere' },
@@ -75,21 +85,6 @@ export const config = [
     },
   },
   {
-    files: ['**/*.js?(x)'],
-    rules: {
-      'no-undef': OFF, // get rid of the 'React' is not defined error
-      'no-unused-vars': [
-        WARN,
-        {
-          args: 'after-used',
-          argsIgnorePattern: '^_',
-          ignoreRestSiblings: true,
-          varsIgnorePattern: '^ignored',
-        },
-      ],
-    },
-  },
-  {
     files: ['**/*.ts?(x)'],
     languageOptions: {
       parser: ts.parser,
@@ -98,11 +93,10 @@ export const config = [
       },
     },
     plugins: {
-      ts: ts.plugin,
+      '@typescript-eslint': ts.plugin,
     },
     rules: {
-      'no-undef': OFF, // get rid of the 'React' is not defined error
-      'ts/no-unused-vars': [
+      '@typescript-eslint/no-unused-vars': [
         WARN,
         {
           args: 'after-used',
@@ -112,7 +106,7 @@ export const config = [
         },
       ],
       'import/consistent-type-specifier-style': [WARN, 'prefer-inline'],
-      'ts/consistent-type-imports': [
+      '@typescript-eslint/consistent-type-imports': [
         WARN,
         {
           prefer: 'type-imports',
