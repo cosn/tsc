@@ -1,6 +1,6 @@
 # @cosn/tsc
 
-Sensible defaults that I use for my projects. Inspired by (and in some cases, forked from) [Kent's configs](https://github.com/epicweb-dev/config).
+Sensible defaults I use for my projects.
 
 ## Installation
 
