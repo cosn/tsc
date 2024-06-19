@@ -5,7 +5,7 @@ Sensible defaults I use for my projects.
 ## Installation
 
 ```shell
-pnpm add @cosn/tsc
+pnpm add --save-dev @cosn/tsc
 ```
 
 ## Usage
