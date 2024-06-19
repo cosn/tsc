@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.9.3
+
+### Patch Changes
+
+- 74043f8: fix rule order
+
 ## 1.9.2
 
 ### Patch Changes
