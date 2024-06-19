@@ -77,6 +77,7 @@ export const config = [
   {
     files: ['**/*.js?(x)'],
     rules: {
+      'no-undef': OFF, // get rid of the 'React' is not defined error
       'no-unused-vars': [
         WARN,
         {
@@ -100,6 +101,7 @@ export const config = [
       ts: ts.plugin,
     },
     rules: {
+      'no-undef': OFF, // get rid of the 'React' is not defined error
       'ts/no-unused-vars': [
         WARN,
         {
@@ -118,12 +120,6 @@ export const config = [
           fixStyle: 'inline-type-imports',
         },
       ],
-    },
-  },
-  {
-    files: ['**/*.jsx', '**/*.tsx'],
-    rules: {
-      'no-undef': [OFF], // get rid of the 'React' is not defined error
     },
   },
   {
