@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.9.0
+
+### Minor Changes
+
+- e9b572a: update eslint rules
+
 ## 1.8.2
 
 ### Patch Changes
