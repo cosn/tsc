@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.9.2
+
+### Patch Changes
+
+- 5474672: minor refactor
+
 ## 1.9.1
 
 ### Patch Changes
