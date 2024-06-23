@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.9.5
+
+### Patch Changes
+
+- fc2c668: update deps
+
 ## 1.9.4
 
 ### Patch Changes
