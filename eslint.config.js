@@ -93,10 +93,10 @@ export const config = [
       },
     },
     plugins: {
-      '@typescript-eslint': ts.plugin,
+      ts: ts.plugin,
     },
     rules: {
-      '@typescript-eslint/no-unused-vars': [
+      'ts/no-unused-vars': [
         WARN,
         {
           args: 'after-used',
@@ -106,7 +106,7 @@ export const config = [
         },
       ],
       'import/consistent-type-specifier-style': [WARN, 'prefer-inline'],
-      '@typescript-eslint/consistent-type-imports': [
+      'ts/consistent-type-imports': [
         WARN,
         {
           prefer: 'type-imports',
@@ -114,6 +114,15 @@ export const config = [
           fixStyle: 'inline-type-imports',
         },
       ],
+    },
+  },
+  {
+    files: ['**/*.ts'],
+    languageOptions: {
+      parser: ts.parser,
+    },
+    rules: {
+      'func-style': WARN,
     },
   },
   {
