@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.10.0
+
+### Minor Changes
+
+- c9405b1: everything non-import related should be an ERROR
+
 ## 1.9.5
 
 ### Patch Changes
