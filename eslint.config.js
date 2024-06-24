@@ -37,10 +37,9 @@ export const config = [
     rules: {
       ...js.configs.recommended.rules,
       'no-var': ERROR,
-      'no-undef': OFF, // get rid of the 'React' is not defined error
       'no-unexpected-multiline': ERROR,
       'no-unused-vars': [
-        WARN,
+        ERROR,
         {
           args: 'after-used',
           argsIgnorePattern: '^_',
@@ -83,6 +82,9 @@ export const config = [
         jsx: true,
       },
     },
+    rules: {
+      'no-undef': OFF, // get rid of the 'React' is not defined error
+    },
   },
   {
     files: ['**/*.ts?(x)'],
@@ -97,7 +99,7 @@ export const config = [
     },
     rules: {
       'ts/no-unused-vars': [
-        WARN,
+        ERROR,
         {
           args: 'after-used',
           argsIgnorePattern: '^_',
@@ -120,9 +122,12 @@ export const config = [
     files: ['**/*.ts'],
     languageOptions: {
       parser: ts.parser,
+      parserOptions: {
+        projectService: true,
+      },
     },
     rules: {
-      'func-style': WARN,
+      'func-style': ERROR,
     },
   },
   {
