@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.11.0
+
+### Minor Changes
+
+- ed861b8: add TS reset
+
 ## 1.10.0
 
 ### Minor Changes
