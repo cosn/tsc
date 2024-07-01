@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.11.1
+
+### Patch Changes
+
+- b379075: update export
+
 ## 1.11.0
 
 ### Minor Changes
