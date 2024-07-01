@@ -12,7 +12,7 @@
     ".": "./index.js",
     "./eslint": "./eslint.config.js",
     "./prettier": "./prettier.js",
-    "./reset.d.ts": "./reset.d.ts",
+    "./ts-reset": "./reset.d.ts",
     "./tsconfig-srv": "./base.json",
     "./tsconfig-web": "./base-web.json"
   },
