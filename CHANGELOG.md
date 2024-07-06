@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.12.0
+
+### Minor Changes
+
+- 1ee7d61: add tseslint recommended rules
+
 ## 1.11.1
 
 ### Patch Changes
