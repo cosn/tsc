@@ -1,5 +1,4 @@
 // Originally forked from https://github.com/epicweb-dev/config/blob/main/eslint.js
-
 import js from '@eslint/js'
 import prettier from 'eslint-config-prettier'
 import globals from 'globals'
@@ -13,7 +12,7 @@ const vitestFiles = ['**/__tests__/**/*', '**/*.test.*']
 const testFiles = ['**/tests/**', '**/#tests/**', ...vitestFiles]
 const playwrightFiles = ['**/e2e/**']
 
-export const config = [
+export const config = ts.config(
   {
     ignores: [
       '**/.next/**',
@@ -98,6 +97,8 @@ export const config = [
       ts: ts.plugin,
     },
     rules: {
+      ...ts.configs.recommended.rules,
+      ...ts.configs.stylistic.rules,
       'ts/no-unused-vars': [
         ERROR,
         {
@@ -107,12 +108,10 @@ export const config = [
           varsIgnorePattern: '^ignored',
         },
       ],
-      'import/consistent-type-specifier-style': [WARN, 'prefer-inline'],
+      'import/consistent-type-specifier-style': [ERROR, 'prefer-inline'],
       'ts/consistent-type-imports': [
-        WARN,
+        ERROR,
         {
-          prefer: 'type-imports',
-          disallowTypeAnnotations: true,
           fixStyle: 'inline-type-imports',
         },
       ],
@@ -161,6 +160,6 @@ export const config = [
     },
   },
   prettier,
-]
+)
 
 export default config
