@@ -14,7 +14,8 @@
     "./prettier": "./prettier.js",
     "./ts-reset": "./reset.d.ts",
     "./tsconfig-srv": "./base.json",
-    "./tsconfig-web": "./base-web.json"
+    "./tsconfig-web": "./base-web.json",
+    "./tsconfig-lib": "./base-lib.json"
   },
   "scripts": {
     "release": "changeset publish",

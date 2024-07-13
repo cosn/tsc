@@ -30,6 +30,14 @@ Create a `tsconfig.json` file in your project root with the following content:
 }
 ```
 
+#### Library
+
+```json
+{
+  "extends": ["@cosn/tsc/tsconfig-lib"]
+}
+```
+
 ### Prettier
 
 #### Default
