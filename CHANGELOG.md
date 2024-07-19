@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.14.1
+
+### Patch Changes
+
+- 37315e4: add noImplicitOverride and reorder
+
 ## 1.14.0
 
 ### Minor Changes
