@@ -7,7 +7,6 @@
     "module": "preserve",
     "moduleResolution": "bundler",
     "noEmit": true,
-    "declaration": true,
 
     "allowArbitraryExtensions": true,
     "allowImportingTsExtensions": true,
