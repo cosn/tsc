@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.14.3
+
+### Patch Changes
+
+- 3cc4e1d: remove outDir
+
 ## 1.14.2
 
 ### Patch Changes
