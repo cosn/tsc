@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.14.2
+
+### Patch Changes
+
+- 96f4685: move declaration to base-lib
+
 ## 1.14.1
 
 ### Patch Changes
