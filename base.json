@@ -26,8 +26,6 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
 
-    "outDir": "dist",
-
     "typeRoots": ["node_modules/@types"]
   },
   "exclude": ["node_modules"]
