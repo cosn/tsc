@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.14.5
+
+### Patch Changes
+
+- 003ee60: revert
+
 ## 1.14.4
 
 ### Patch Changes
