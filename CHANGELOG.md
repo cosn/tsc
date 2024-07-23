@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.14.4
+
+### Patch Changes
+
+- 8a6e784: remove exclude
+
 ## 1.14.3
 
 ### Patch Changes
