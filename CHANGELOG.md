@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.15.0
+
+### Minor Changes
+
+- 39e3e43: add react-query, fix react-hooks, switch to plugin-import
+
 ## 1.14.5
 
 ### Patch Changes
