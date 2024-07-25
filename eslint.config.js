@@ -1,4 +1,5 @@
 // Originally forked from https://github.com/epicweb-dev/config/blob/main/eslint.js
+import { fixupPluginRules } from '@eslint/compat'
 import js from '@eslint/js'
 import prettier from 'eslint-config-prettier'
 import globals from 'globals'
@@ -25,7 +26,7 @@ export const config = ts.config(
   },
   {
     plugins: {
-      import: (await import('eslint-plugin-import-x')).default,
+      import: fixupPluginRules(await import('eslint-plugin-import')),
     },
     languageOptions: {
       globals: {
@@ -72,8 +73,11 @@ export const config = ts.config(
   {
     files: ['**/*.ts?(x)', '**/*.js?(x)'],
     plugins: {
-      react: (await import('eslint-plugin-react')).default,
-      'react-hooks': (await import('eslint-plugin-react-hooks')).default,
+      react: await import('eslint-plugin-react'),
+      'react-hooks': fixupPluginRules(
+        await import('eslint-plugin-react-hooks'),
+      ),
+      'react-query': await import('@tanstack/eslint-plugin-query'),
     },
     languageOptions: {
       parser: ts.parser,
@@ -150,8 +154,8 @@ export const config = ts.config(
     files: testFiles,
     ignores: [...playwrightFiles],
     plugins: {
-      testing: (await import('eslint-plugin-testing-library')).default,
-      vitest: (await import('eslint-plugin-vitest')).default,
+      testing: await import('eslint-plugin-testing-library'),
+      vitest: await import('eslint-plugin-vitest'),
     },
     rules: {
       'testing/no-unnecessary-act': [ERROR, { isStrict: false }],
