@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.15.1
+
+### Patch Changes
+
+- 0b08fdb: add back .default
+
 ## 1.15.0
 
 ### Minor Changes
