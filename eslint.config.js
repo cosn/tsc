@@ -73,11 +73,11 @@ export const config = ts.config(
   {
     files: ['**/*.ts?(x)', '**/*.js?(x)'],
     plugins: {
-      react: await import('eslint-plugin-react'),
+      react: (await import('eslint-plugin-react')).default,
       'react-hooks': fixupPluginRules(
         await import('eslint-plugin-react-hooks'),
       ),
-      'react-query': await import('@tanstack/eslint-plugin-query'),
+      'react-query': (await import('@tanstack/eslint-plugin-query')).default,
     },
     languageOptions: {
       parser: ts.parser,
@@ -154,8 +154,8 @@ export const config = ts.config(
     files: testFiles,
     ignores: [...playwrightFiles],
     plugins: {
-      testing: await import('eslint-plugin-testing-library'),
-      vitest: await import('eslint-plugin-vitest'),
+      testing: (await import('eslint-plugin-testing-library')).default,
+      vitest: (await import('eslint-plugin-vitest')).default,
     },
     rules: {
       'testing/no-unnecessary-act': [ERROR, { isStrict: false }],
