@@ -20,6 +20,9 @@ importers:
       '@total-typescript/ts-reset':
         specifier: ^0.5.1
         version: 0.5.1
+      eslint:
+        specifier: ^9.10.0
+        version: 9.10.0(jiti@1.21.6)
       eslint-config-prettier:
         specifier: ^9.1.0
         version: 9.1.0(eslint@9.10.0(jiti@1.21.6))
@@ -44,6 +47,9 @@ importers:
       globals:
         specifier: ^15.9.0
         version: 15.9.0
+      prettier:
+        specifier: ^3.3.3
+        version: 3.3.3
       prettier-plugin-tailwindcss:
         specifier: ^0.6.6
         version: 0.6.6(prettier@3.3.3)
@@ -60,15 +66,9 @@ importers:
       '@commitlint/config-conventional':
         specifier: ^19.4.1
         version: 19.4.1
-      eslint:
-        specifier: ^9.10.0
-        version: 9.10.0(jiti@1.21.6)
       husky:
         specifier: ^9.1.5
         version: 9.1.5
-      prettier:
-        specifier: ^3.3.3
-        version: 3.3.3
 
 packages:
 
