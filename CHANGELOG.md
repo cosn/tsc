@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.16.0
+
+### Minor Changes
+
+- a9bf082: add settings for react
+
 ## 1.15.4
 
 ### Patch Changes
