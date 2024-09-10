@@ -85,6 +85,13 @@ export const config = ts.config(
         jsx: true,
       },
     },
+    settings: {
+      formComponents: ["Form"],
+      linkComponents: [
+        { name: "Link", linkAttribute: "to" },
+        { name: "NavLink", linkAttribute: "to" },
+      ],
+    },
     rules: {
       'no-undef': OFF, // get rid of the 'React' is not defined error
     },
