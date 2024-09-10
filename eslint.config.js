@@ -86,10 +86,10 @@ export const config = ts.config(
       },
     },
     settings: {
-      formComponents: ["Form"],
+      formComponents: ['Form'],
       linkComponents: [
-        { name: "Link", linkAttribute: "to" },
-        { name: "NavLink", linkAttribute: "to" },
+        { name: 'Link', linkAttribute: 'to' },
+        { name: 'NavLink', linkAttribute: 'to' },
       ],
     },
     rules: {
