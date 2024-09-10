@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.16.1
+
+### Patch Changes
+
+- cc5ced5: update deps
+
 ## 1.16.0
 
 ### Minor Changes
