@@ -1,11 +1,14 @@
 {
   "extends": "./base.json",
   "compilerOptions": {
+    "moduleResolution": "nodenext",
+    "noEmit": false,
     "allowImportingTsExtensions": false,
+   
     "composite": true,
     "declaration": true,
     "declarationMap": true,
-    "noEmit": false,
+   
     "outDir": "./dist"
   }
 }
