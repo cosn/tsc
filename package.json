@@ -16,6 +16,7 @@
     "./tsconfig-srv": "./base.json",
     "./tsconfig-web": "./base-web.json",
     "./tsconfig-lib": "./base-lib.json",
+    "./tsconfig-node": "./base-node.json",
     "./utils": "./utils.ts"
   },
   "scripts": {
