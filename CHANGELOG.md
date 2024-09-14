@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.17.0
+
+### Minor Changes
+
+- b0c2bc0: add tsconfig-node
+
 ## 1.16.1
 
 ### Patch Changes
