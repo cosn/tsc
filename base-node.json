@@ -4,11 +4,11 @@
     "moduleResolution": "nodenext",
     "noEmit": false,
     "allowImportingTsExtensions": false,
-   
+
     "composite": true,
     "declaration": true,
     "declarationMap": true,
-   
+
     "outDir": "./dist"
   }
 }
