@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.17.1
+
+### Patch Changes
+
+- a48c0d9: update moduleresolution
+
 ## 1.17.0
 
 ### Minor Changes
