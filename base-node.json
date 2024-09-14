@@ -4,6 +4,6 @@
     "module": "nodenext",
     "moduleResolution": "nodenext",
     "noEmit": false,
-    "allowImportingTsExtensions": false,
+    "allowImportingTsExtensions": false
   }
 }
