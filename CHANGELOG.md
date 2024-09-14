@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.17.2
+
+### Patch Changes
+
+- d60d568: add module
+
 ## 1.17.1
 
 ### Patch Changes
