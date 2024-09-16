@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.18.2
+
+### Patch Changes
+
+- fe372f5: ignore build
+
 ## 1.18.1
 
 ### Patch Changes
