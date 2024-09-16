@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.18.1
+
+### Patch Changes
+
+- 8f2670e: fix circular dep
+
 ## 1.18.0
 
 ### Minor Changes
