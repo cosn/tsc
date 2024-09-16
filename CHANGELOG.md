@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.18.0
+
+### Minor Changes
+
+- 135b35f: refactor tsconfig
+
 ## 1.17.3
 
 ### Patch Changes
