@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.18.3
+
+### Patch Changes
+
+- b188f09: remove verbatimModuleSyntax
+
 ## 1.18.2
 
 ### Patch Changes
