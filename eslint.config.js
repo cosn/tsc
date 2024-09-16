@@ -22,6 +22,7 @@ export const config = ts.config(
       '**/public/**',
       '**/coverage/**',
       '**/dist/**',
+      '**/build/**',
     ],
   },
   {
