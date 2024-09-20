@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.19.0
+
+### Minor Changes
+
+- 887f8af: add moduleResolution
+
 ## 1.18.3
 
 ### Patch Changes
