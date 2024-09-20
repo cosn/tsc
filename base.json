@@ -4,6 +4,8 @@
     "target": "esnext",
     "lib": ["esnext"],
 
+    "moduleDetection": "force",
+
     "allowArbitraryExtensions": true,
     "allowJs": true,
     "esModuleInterop": true,
