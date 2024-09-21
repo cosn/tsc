@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.20.0
+
+### Minor Changes
+
+- 5e3bc47: refactor some of the defaults
+
 ## 1.19.0
 
 ### Minor Changes
