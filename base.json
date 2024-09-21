@@ -5,9 +5,11 @@
     "lib": ["esnext"],
 
     "moduleDetection": "force",
+    "noEmit": true,
 
     "allowArbitraryExtensions": true,
     "allowJs": true,
+    "allowImportingTsExtensions": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "incremental": true,

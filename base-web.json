@@ -3,10 +3,8 @@
   "compilerOptions": {
     "module": "preserve",
     "moduleResolution": "bundler",
-    "noEmit": true,
 
-    "allowImportingTsExtensions": true,
     "lib": ["esnext", "dom", "dom.iterable"],
-    "jsx": "preserve"
+    "jsx": "react-jsx"
   }
 }
