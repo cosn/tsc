@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.21.0
+
+### Minor Changes
+
+- 5d632f4: refactor
+
 ## 1.20.0
 
 ### Minor Changes
