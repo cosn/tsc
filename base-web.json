@@ -1,9 +1,6 @@
 {
   "extends": "./base.json",
   "compilerOptions": {
-    "module": "preserve",
-    "moduleResolution": "bundler",
-
     "lib": ["esnext", "dom", "dom.iterable"],
     "jsx": "react-jsx"
   }
