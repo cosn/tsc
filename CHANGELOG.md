@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.22.1
+
+### Patch Changes
+
+- 26f1b41: replace composite with declaration
+
 ## 1.22.0
 
 ### Minor Changes
