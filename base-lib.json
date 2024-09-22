@@ -1,7 +1,6 @@
 {
   "extends": "./base-node.json",
   "compilerOptions": {
-    "module": "esnext",
     "composite": true,
     "declarationMap": true
   }
