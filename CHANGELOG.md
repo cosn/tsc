@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.21.1
+
+### Patch Changes
+
+- c2f285b: remove esnext for lib
+
 ## 1.21.0
 
 ### Minor Changes
