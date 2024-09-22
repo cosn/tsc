@@ -1,7 +1,7 @@
 {
   "extends": "./base-node.json",
   "compilerOptions": {
-    "composite": true,
+    "declaration": true,
     "declarationMap": true
   }
 }
