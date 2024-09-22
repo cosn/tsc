@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.22.0
+
+### Minor Changes
+
+- fa3513a: only keep module=preserve
+
 ## 1.21.1
 
 ### Patch Changes
