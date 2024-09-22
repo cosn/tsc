@@ -24,7 +24,5 @@
     "noUnusedParameters": true,
 
     "typeRoots": ["node_modules/@types"]
-  },
-  "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["build", "dist", "node_modules"]
+  }
 }
