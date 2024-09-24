@@ -39,15 +39,7 @@ export const config = ts.config(
       ...js.configs.recommended.rules,
       'no-var': ERROR,
       'no-unexpected-multiline': ERROR,
-      'no-unused-vars': [
-        ERROR,
-        {
-          args: 'after-used',
-          argsIgnorePattern: '^_',
-          ignoreRestSiblings: true,
-          varsIgnorePattern: '^ignored',
-        },
-      ],
+      'no-unused-vars': OFF,
       'no-warning-comments': [
         ERROR,
         { terms: ['FIXME'], location: 'anywhere' },
