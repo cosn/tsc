@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.23.0
+
+### Minor Changes
+
+- 18b74c6: remove no-unused-vars
+
 ## 1.22.1
 
 ### Patch Changes
