@@ -3,6 +3,7 @@ export const config = {
   arrowParens: 'always',
   semi: false,
   singleQuote: true,
+  jsxSingleQuote: true,
   trailingComma: 'all',
   plugins: ['prettier-plugin-tailwindcss'],
   tailwindFunctions: ['clsx', 'cn'],
