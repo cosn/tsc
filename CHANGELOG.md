@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.24.0
+
+### Minor Changes
+
+- 5d99f19: add jsxsinglequote
+
 ## 1.23.1
 
 ### Patch Changes
