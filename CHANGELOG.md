@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.24.1
+
+### Patch Changes
+
+- 59416ab: exclude turbo and nx
+
 ## 1.24.0
 
 ### Minor Changes
