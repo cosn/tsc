@@ -23,6 +23,8 @@ export const config = ts.config(
       '**/coverage/**',
       '**/dist/**',
       '**/build/**',
+      '**/.turbo/**',
+      '**/.nx/**',
     ],
   },
   {
