@@ -121,17 +121,6 @@ export const config = ts.config(
           fixStyle: 'inline-type-imports',
         },
       ],
-    },
-  },
-  {
-    files: ['**/*.ts'],
-    languageOptions: {
-      parser: ts.parser,
-      parserOptions: {
-        projectService: true,
-      },
-    },
-    rules: {
       'func-style': ERROR,
     },
   },
