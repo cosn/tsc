@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.25.0
+
+### Minor Changes
+
+- 91bec6d: apply func-style to tsx
+
 ## 1.24.4
 
 ### Patch Changes
