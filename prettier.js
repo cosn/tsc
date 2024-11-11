@@ -5,8 +5,11 @@ export const config = {
   singleQuote: true,
   jsxSingleQuote: true,
   trailingComma: 'all',
-  plugins: ['prettier-plugin-tailwindcss'],
-  tailwindFunctions: ['clsx', 'cn'],
+  plugins: [
+    '@trivago/prettier-plugin-sort-imports',
+    'prettier-plugin-tailwindcss',
+  ],
+  tailwindFunctions: ['clsx', 'cn', 'twMerge'],
 }
 
 export default config
