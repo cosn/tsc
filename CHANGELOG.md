@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.26.0
+
+### Minor Changes
+
+- 570958f: update prettier
+
 ## 1.25.1
 
 ### Patch Changes
