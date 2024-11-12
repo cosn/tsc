@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.27.0
+
+### Minor Changes
+
+- 81fa388: update eslint
+
 ## 1.26.0
 
 ### Minor Changes
