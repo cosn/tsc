@@ -52,14 +52,13 @@ export const config = ts.config(
         WARN,
         {
           alphabetize: { order: 'asc', caseInsensitive: true },
-          pathGroups: [{ pattern: '#*/**', group: 'internal' }],
+          pathGroups: [{ pattern: '~*/**', group: 'internal' }],
           groups: [
             'builtin',
             'external',
             'internal',
             'parent',
-            'sibling',
-            'index',
+            ['sibling', 'index'],
           ],
         },
       ],
