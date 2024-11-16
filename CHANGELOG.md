@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.27.1
+
+### Patch Changes
+
+- 258aad3: update deps
+
 ## 1.27.0
 
 ### Minor Changes
