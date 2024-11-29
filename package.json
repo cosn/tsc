@@ -35,9 +35,9 @@
   "dependencies": {
     "@eslint/compat": "^1.2.3",
     "@eslint/js": "latest",
-    "@tanstack/eslint-plugin-query": "^5.60.1",
+    "@tanstack/eslint-plugin-query": "^5.61.6",
     "@total-typescript/ts-reset": "^0.5.1",
-    "eslint": "^9.15.0",
+    "eslint": "^9.16.0",
     "eslint-config-prettier": "latest",
     "eslint-plugin-import": "latest",
     "eslint-plugin-prettier": "latest",
