@@ -9,19 +9,19 @@ importers:
   .:
     dependencies:
       '@eslint/compat':
-        specifier: ^1.2.4
+        specifier: latest
         version: 1.2.4(eslint@9.16.0(jiti@1.21.6))
       '@eslint/js':
         specifier: latest
         version: 9.16.0
       '@tanstack/eslint-plugin-query':
-        specifier: ^5.62.1
+        specifier: latest
         version: 5.62.1(eslint@9.16.0(jiti@1.21.6))(typescript@5.4.5)
       '@total-typescript/ts-reset':
-        specifier: ^0.5.1
-        version: 0.5.1
+        specifier: latest
+        version: 0.6.1
       eslint:
-        specifier: ^9.16.0
+        specifier: latest
         version: 9.16.0(jiti@1.21.6)
       eslint-config-prettier:
         specifier: latest
@@ -45,7 +45,7 @@ importers:
         specifier: latest
         version: 0.5.4(eslint@9.16.0(jiti@1.21.6))(typescript@5.4.5)
       globals:
-        specifier: ^15.13.0
+        specifier: latest
         version: 15.13.0
       prettier:
         specifier: latest
@@ -58,16 +58,16 @@ importers:
         version: 8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.4.5)
     devDependencies:
       '@changesets/cli':
-        specifier: ^2.27.10
+        specifier: latest
         version: 2.27.10
       '@commitlint/cli':
-        specifier: ^19.6.0
+        specifier: latest
         version: 19.6.0(@types/node@22.10.1)(typescript@5.4.5)
       '@commitlint/config-conventional':
-        specifier: ^19.6.0
+        specifier: latest
         version: 19.6.0
       husky:
-        specifier: ^9.1.7
+        specifier: latest
         version: 9.1.7
 
 packages:
@@ -301,8 +301,8 @@ packages:
     peerDependencies:
       eslint: ^8.57.0 || ^9.0.0
 
-  '@total-typescript/ts-reset@0.5.1':
-    resolution: {integrity: sha512-AqlrT8YA1o7Ff5wPfMOL0pvL+1X+sw60NN6CcOCqs658emD6RfiXhF7Gu9QcfKBH7ELY2nInLhKSCWVoNL70MQ==}
+  '@total-typescript/ts-reset@0.6.1':
+    resolution: {integrity: sha512-cka47fVSo6lfQDIATYqb/vO1nvFfbPw7uWLayIXIhGETj0wcOOlrlkobOMDNQOFr9QOafegUPq13V2+6vtD7yg==}
 
   '@types/conventional-commits-parser@5.0.1':
     resolution: {integrity: sha512-7uz5EHdzz2TqoMfV7ee61Egf5y6NkcO4FB/1iCCQnbeiI1F3xzv3vK5dBCXUCLQgGYS+mUeigK1iKQzvED+QnQ==}
@@ -2142,7 +2142,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@total-typescript/ts-reset@0.5.1': {}
+  '@total-typescript/ts-reset@0.6.1': {}
 
   '@types/conventional-commits-parser@5.0.1':
     dependencies:

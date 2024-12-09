@@ -27,17 +27,17 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@changesets/cli": "^2.27.10",
-    "@commitlint/cli": "^19.6.0",
-    "@commitlint/config-conventional": "^19.6.0",
-    "husky": "^9.1.7"
+    "@changesets/cli": "latest",
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "husky": "latest"
   },
   "dependencies": {
-    "@eslint/compat": "^1.2.4",
+    "@eslint/compat": "latest",
     "@eslint/js": "latest",
-    "@tanstack/eslint-plugin-query": "^5.62.1",
-    "@total-typescript/ts-reset": "^0.5.1",
-    "eslint": "^9.16.0",
+    "@tanstack/eslint-plugin-query": "latest",
+    "@total-typescript/ts-reset": "latest",
+    "eslint": "latest",
     "eslint-config-prettier": "latest",
     "eslint-plugin-import": "latest",
     "eslint-plugin-prettier": "latest",
@@ -45,7 +45,7 @@
     "eslint-plugin-react-hooks": "latest",
     "eslint-plugin-testing-library": "latest",
     "eslint-plugin-vitest": "latest",
-    "globals": "^15.13.0",
+    "globals": "latest",
     "prettier": "latest",
     "prettier-plugin-tailwindcss": "latest",
     "typescript-eslint": "latest"
