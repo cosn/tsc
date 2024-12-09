@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.27.5
+
+### Patch Changes
+
+- dce2b14: update deps
+
 ## 1.27.4
 
 ### Patch Changes
