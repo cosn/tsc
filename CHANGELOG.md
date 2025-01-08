@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.27.7
+
+### Patch Changes
+
+- 0e1f1cd: add react_router to excludes
+
 ## 1.27.6
 
 ### Patch Changes
