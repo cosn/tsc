@@ -18,7 +18,7 @@ export const config = ts.config(
     ignores: [
       '**/.next/**',
       '**/.nx/**',
-      '**/.react_router/**',
+      '**/.react-router/**',
       '**/.turbo/**',
       '**/build/**',
       '**/coverage/**',
