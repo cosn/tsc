@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.27.8
+
+### Patch Changes
+
+- 55cd5f1: fix typo
+
 ## 1.27.7
 
 ### Patch Changes
