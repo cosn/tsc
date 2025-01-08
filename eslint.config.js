@@ -17,14 +17,15 @@ export const config = ts.config(
   {
     ignores: [
       '**/.next/**',
+      '**/.nx/**',
+      '**/.react_router/**',
+      '**/.turbo/**',
+      '**/build/**',
+      '**/coverage/**',
+      '**/dist/**',
       '**/node_modules/**',
       '**/out/**',
       '**/public/**',
-      '**/coverage/**',
-      '**/dist/**',
-      '**/build/**',
-      '**/.turbo/**',
-      '**/.nx/**',
     ],
   },
   {
