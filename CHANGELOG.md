@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.27.9
+
+### Patch Changes
+
+- 33f86ce: update deps
+
 ## 1.27.8
 
 ### Patch Changes
