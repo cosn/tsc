@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.27.10
+
+### Patch Changes
+
+- ad7ac02: update deps
+
 ## 1.27.9
 
 ### Patch Changes
