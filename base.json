@@ -21,8 +21,6 @@
     "noImplicitOverride": true,
     "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true,
-
-    "typeRoots": ["node_modules/@types"]
+    "noUnusedParameters": true
   }
 }
