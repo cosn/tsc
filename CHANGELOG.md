@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.28.0
+
+### Minor Changes
+
+- b1b206b: remove typeRoots
+
 ## 1.27.10
 
 ### Patch Changes
