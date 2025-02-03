@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.28.1
+
+### Patch Changes
+
+- d5ccb90: update deps
+
 ## 1.28.0
 
 ### Minor Changes
