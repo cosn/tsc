@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.28.2
+
+### Patch Changes
+
+- b437c72: remove tailwind plugin
+
 ## 1.28.1
 
 ### Patch Changes
