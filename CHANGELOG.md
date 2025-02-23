@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.28.4
+
+### Patch Changes
+
+- 19c2b21: update deps
+
 ## 1.28.3
 
 ### Patch Changes
