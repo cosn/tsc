@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.28.6
+
+### Patch Changes
+
+- e1ce06b: update deps
+
 ## 1.28.5
 
 ### Patch Changes
