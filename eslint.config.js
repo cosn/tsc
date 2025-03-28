@@ -72,6 +72,9 @@ export const config = ts.config(
       'react-hooks': fixupPluginRules(
         await import('eslint-plugin-react-hooks'),
       ),
+      'react-compiler': fixupPluginRules(
+        await import('eslint-plugin-react-compiler'),
+      ),
       'react-query': (await import('@tanstack/eslint-plugin-query')).default,
     },
     languageOptions: {
@@ -89,6 +92,8 @@ export const config = ts.config(
     },
     rules: {
       'no-undef': OFF, // get rid of the 'React' is not defined error
+      // See https://react.dev/learn/react-compiler#installing-eslint-plugin-react-compiler
+      'react-compiler/react-compiler': [WARN],
     },
   },
   {
