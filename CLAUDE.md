@@ -4,7 +4,6 @@
 
 - `pnpm format`: Format code with Prettier
 - `pnpm lint`: Run ESLint with auto-fix
-- `pnpm release`: Publish with Changeset
 
 ## Code Style
 
@@ -20,7 +19,6 @@
 ## Commit Style
 
 - Follow conventional commits via commitlint
-- Run `husky` hooks before commit
 
 ## File Structure
 
