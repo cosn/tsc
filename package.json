@@ -1,6 +1,6 @@
 {
   "name": "@cosn/tsc",
-  "version": "1.28.7",
+  "version": "1.29.0",
   "type": "module",
   "main": "index.js",
   "prettier": "./prettier.js",

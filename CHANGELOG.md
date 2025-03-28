@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.29.0
+
+### Minor Changes
+
+- 8489c7e: add react-compiler eslint
+
 ## 1.28.7
 
 ### Patch Changes
