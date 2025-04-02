@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.29.1
+
+### Patch Changes
+
+- 033c033: update deps
+
 ## 1.29.0
 
 ### Minor Changes
