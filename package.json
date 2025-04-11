@@ -2,6 +2,7 @@
   "name": "@cosn/tsc",
   "version": "1.29.2",
   "type": "module",
+  "packageManager": "pnpm@10.8.0",
   "main": "index.js",
   "prettier": "./prettier.js",
   "repository": {
