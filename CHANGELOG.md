@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.30.0
+
+### Minor Changes
+
+- 80a9a70: eslint-react-compiler bump
+
 ## 1.29.4
 
 ### Patch Changes
