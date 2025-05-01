@@ -92,8 +92,6 @@ export const config = ts.config(
     },
     rules: {
       'no-undef': OFF, // get rid of the 'React' is not defined error
-      // See https://react.dev/learn/react-compiler#installing-eslint-plugin-react-compiler
-      'react-compiler/react-compiler': [WARN],
     },
   },
   {
