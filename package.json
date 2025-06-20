@@ -1,6 +1,6 @@
 {
   "name": "@cosn/tsc",
-  "version": "1.30.4",
+  "version": "1.30.5",
   "type": "module",
   "packageManager": "pnpm@10.8.0",
   "main": "index.js",
