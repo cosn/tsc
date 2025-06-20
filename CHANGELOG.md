@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.30.5
+
+### Patch Changes
+
+- 91c6b48: update deps
+
 ## 1.30.4
 
 ### Patch Changes
