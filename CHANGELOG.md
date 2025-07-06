@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.30.7
+
+### Patch Changes
+
+- fece461: update deps
+
 ## 1.30.6
 
 ### Patch Changes
