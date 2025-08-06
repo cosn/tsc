@@ -1,5 +1,11 @@
 # @cosn/tsc
 
+## 1.31.0
+
+### Minor Changes
+
+- 83ae420: switch to TypeChecked TS rules
+
 ## 1.30.8
 
 ### Patch Changes
