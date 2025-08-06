@@ -13,6 +13,7 @@ const vitestFiles = ['**/__tests__/**/*', '**/*.test.*']
 const testFiles = ['**/tests/**', '**/#tests/**', ...vitestFiles]
 const playwrightFiles = ['**/e2e/**']
 
+/** @type {import('eslint').Linter.Config[]} */
 export const config = ts.config(
   {
     ignores: [
@@ -106,8 +107,8 @@ export const config = ts.config(
       ts: ts.plugin,
     },
     rules: {
-      ...ts.configs.recommended.rules,
-      ...ts.configs.stylistic.rules,
+      ...ts.configs.recommendedTypeChecked.rules,
+      ...ts.configs.stylisticTypeChecked.rules,
       'ts/no-unused-vars': [
         ERROR,
         {
